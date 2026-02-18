@@ -127,3 +127,13 @@ main {
     background-color: #667eea;
     color: white;
 }
+.ingredients-container,
+.steps-container {
+    display: none;
+    margin-top: 10px;
+}
+
+.ingredients-container.visible,
+.steps-container.visible {
+    display: block;
+}
