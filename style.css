@@ -137,3 +137,18 @@ main {
 .steps-container.visible {
     display: block;
 }
+.favorite-btn {
+  cursor: pointer;
+  font-size: 18px;
+  background: none;
+  border: none;
+}
+
+.favorite-btn.active {
+  color: red;
+}
+
+#recipe-counter {
+  font-weight: bold;
+  margin: 10px 0;
+}
